@@ -19,7 +19,7 @@ import Picker from "emoji-picker-react";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://mern-chat-talk-app.herokuapp.com/";
+const ENDPOINT = "https://mern-chatapp-sr.herokuapp.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
