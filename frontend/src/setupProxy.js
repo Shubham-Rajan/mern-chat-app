@@ -4,7 +4,7 @@ module.exports = function (App) {
   App.use(
     "/api",
     createProxyMiddleware({
-      target: "http://localhost:5000",
+      target: "https://mern-chatapp-sr.herokuapp.com/",
       changeOrigin: true,
     })
   );
